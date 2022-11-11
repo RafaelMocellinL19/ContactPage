@@ -8,18 +8,20 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className='intro'>
-          Hello World...<code> I'm Rafael Mocellin Leszczynski</code> and here are my contacts, social networks and my portfolio.
+          Hello World...<code className='name'> I'm Rafael Mocellin Leszczynski</code> and here are my contacts, social networks and my portfolio.
         </p>
 
         <br />
+        <h2 className='sub'>Contact me by:</h2>
         <a
           className="App-link1"
           href="https://github.com/RafaelMocellinL19"
           target="_blank"
           rel="noopener noreferrer"
-        >
+        > 
           ⇨ GitHub ⇦
         </a>
+        
         <br />
         <a
           className="App-link"
@@ -80,7 +82,7 @@ function App() {
 
       <footer className='adr'>
         <address>
-          Travessa Manoel Mendes, 516 Serraria, Santa Catarina/Brasil<br />
+          Travessa Manoel Mendes, 516 Serraria, Santa Catarina / Brasil<br />
         </address>
         <br /> <br />
         <address>
@@ -93,8 +95,11 @@ function App() {
 
 
         </address>
+
+        
       </footer>
       <br /> <br /> <br /> <br />
+      
     </div>
   );
 }

@@ -1,0 +1,17 @@
+html{
+    background-color: black;
+}
+footer{
+    text-align: center;
+
+}
+
+.logoSection{
+    align-content: center;
+    padding: 5px;
+}
+
+.logo{
+    width: 40px;
+    align-items: center;
+}
